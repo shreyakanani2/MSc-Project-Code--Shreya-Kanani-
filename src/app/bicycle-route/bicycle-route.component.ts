@@ -8,7 +8,7 @@ import { } from 'googlemaps';
   styleUrls: ['./bicycle-route.component.scss']
 })
 export class BicycleRouteComponent implements OnInit {
-
+  showLoading = true;
   public showMapPill: boolean;
   private map: google.maps.Map;
   private source: google.maps.LatLngLiteral; //holds souce location
@@ -139,6 +139,6 @@ export class BicycleRouteComponent implements OnInit {
         let infoWindow = new google.maps.InfoWindow({ content: "Hello" });
         infoWindow.open(this.map, this);
       });
-
+      this.showLoading = false;
   }
 }

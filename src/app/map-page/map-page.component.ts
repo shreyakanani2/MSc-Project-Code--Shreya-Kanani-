@@ -9,7 +9,7 @@ import { } from 'googlemaps';
   encapsulation: ViewEncapsulation.None,
 })
 export class MapPageComponent implements OnInit {
-
+  showLoading = true;
   public showMapPill: boolean;
   public mapLoaded: boolean;
   private map: google.maps.Map;
@@ -204,5 +204,7 @@ export class MapPageComponent implements OnInit {
     if (typeof paths['' + fifth + '_to_' + sixth] !== 'undefined') {
       paths['' + fifth + '_to_' + sixth].setOptions({ map: map });
     }
+    this.showLoading = false;
+
   }
 }
