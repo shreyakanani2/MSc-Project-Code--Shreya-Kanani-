@@ -194,12 +194,21 @@ let AppModule = /** @class */ (() => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BicycleRouteComponent", function() { return BicycleRouteComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 //External Imports
 
 
+
+
+function BicycleRouteComponent_img_4_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 4);
+} }
 let BicycleRouteComponent = /** @class */ (() => {
     class BicycleRouteComponent {
-        constructor() { }
+        constructor() {
+            this.showLoading = true;
+        }
         ngOnInit() {
             this.ds = new google.maps.DirectionsService();
             this.dr = new google.maps.DirectionsRenderer({
@@ -307,14 +316,22 @@ let BicycleRouteComponent = /** @class */ (() => {
                 let infoWindow = new google.maps.InfoWindow({ content: "Hello" });
                 infoWindow.open(this.map, this);
             });
+            this.showLoading = false;
         }
     }
     BicycleRouteComponent.ɵfac = function BicycleRouteComponent_Factory(t) { return new (t || BicycleRouteComponent)(); };
-    BicycleRouteComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BicycleRouteComponent, selectors: [["app-bicycle-route"]], decls: 2, vars: 0, consts: [[1, "app-page"], ["id", "map-canvas"]], template: function BicycleRouteComponent_Template(rf, ctx) { if (rf & 1) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 1);
+    BicycleRouteComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BicycleRouteComponent, selectors: [["app-bicycle-route"]], decls: 5, vars: 1, consts: [["routerLink", "/pedestrian", 2, "width", "100px", "height", "20px", "border-radius", "8px", "padding", "5px", "position", "absolute", "border", "1px solid green", "box-shadow", "0px 1px 8px rgb(49, 48, 48)", "top", "4%", "left", "11%", "z-index", "9999999999", "background-color", "aliceblue"], [1, "app-page"], ["id", "map-canvas"], ["src", "./assets/imgs/Loading_icon.gif", "style", "width: 100px;\nheight: 100px;\nposition: absolute;\ntop: 50%;\nright: 50%;", "alt", "", 4, "ngIf"], ["src", "./assets/imgs/Loading_icon.gif", "alt", "", 2, "width", "100px", "height", "100px", "position", "absolute", "top", "50%", "right", "50%"]], template: function BicycleRouteComponent_Template(rf, ctx) { if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 0);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Pedestrian");
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        } }, styles: ["#map-canvas[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.map-loader-container[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  z-index: 10;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.map-pill[_ngcontent-%COMP%] {\n  background: #FFF;\n  position: fixed;\n  bottom: -200px;\n  left: 0;\n  right: 0;\n  margin: 12px;\n  border-radius: 50px;\n  padding: 12px;\n  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);\n  transition: bottom 0.5s;\n  display: flex;\n  align-items: center;\n}\n\n.map-pill[_ngcontent-%COMP%]   .youps-pill-logo[_ngcontent-%COMP%] {\n  background: url('youps_small_logo.svg') no-repeat;\n  background-size: cover;\n  background-position: center;\n  width: 50px;\n  height: 50px;\n}\n\n.map-pill[_ngcontent-%COMP%]   .youps-pill-content[_ngcontent-%COMP%] {\n  margin-left: 12px;\n}\n\n.map-pill[_ngcontent-%COMP%]   .youps-pill-label[_ngcontent-%COMP%] {\n  color: #4B290C;\n  font-size: 1em;\n}\n\n.map-pill[_ngcontent-%COMP%]   .youps-pill-distance-time[_ngcontent-%COMP%] {\n  color: grey;\n  font-size: 0.7em;\n}\n\n.map-pill-show[_ngcontent-%COMP%] {\n  bottom: 25px !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmljeWNsZS1yb3V0ZS9iaWN5Y2xlLXJvdXRlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0JBQUE7RUFDQSxNQUFBO0VBQ0EsU0FBQTtFQUNBLE9BQUE7RUFDQSxRQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7QUFDSjs7QUFFQTtFQUNJLGtCQUFBO0VBQ0EsTUFBQTtFQUNBLFNBQUE7RUFDQSxPQUFBO0VBQ0EsUUFBQTtFQUNBLFdBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0FBQ0o7O0FBR0E7RUFDSSxnQkFBQTtFQUNBLGVBQUE7RUFDQSxjQUFBO0VBQ0EsT0FBQTtFQUNBLFFBQUE7RUFDQSxZQUFBO0VBQ0EsbUJBQUE7RUFDQSxhQUFBO0VBQ0EsMkNBQUE7RUFDQSx1QkFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtBQUFKOztBQUVJO0VBQ0ksaURBQUE7RUFDQSxzQkFBQTtFQUNBLDJCQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7QUFBUjs7QUFHSTtFQUNJLGlCQUFBO0FBRFI7O0FBSUk7RUFDSSxjQUFBO0VBQ0EsY0FBQTtBQUZSOztBQUtJO0VBQ0ksV0FBQTtFQUNBLGdCQUFBO0FBSFI7O0FBT0E7RUFDSSx1QkFBQTtBQUpKIiwiZmlsZSI6InNyYy9hcHAvYmljeWNsZS1yb3V0ZS9iaWN5Y2xlLXJvdXRlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI21hcC1jYW52YXMge1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAwO1xyXG4gICAgYm90dG9tOiAwO1xyXG4gICAgbGVmdDogMDtcclxuICAgIHJpZ2h0OiAwO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbn1cclxuXHJcbi5tYXAtbG9hZGVyLWNvbnRhaW5lciB7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDA7XHJcbiAgICBib3R0b206IDA7XHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgcmlnaHQ6IDA7XHJcbiAgICB6LWluZGV4OiAxMDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxufVxyXG5cclxuXHJcbi5tYXAtcGlsbCB7XHJcbiAgICBiYWNrZ3JvdW5kOiAjRkZGO1xyXG4gICAgcG9zaXRpb246IGZpeGVkO1xyXG4gICAgYm90dG9tOiAtMjAwcHg7XHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgcmlnaHQ6IDA7XHJcbiAgICBtYXJnaW46IDEycHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiA1MHB4O1xyXG4gICAgcGFkZGluZzogMTJweDtcclxuICAgIGJveC1zaGFkb3c6IDBweCAwcHggMjBweCByZ2JhKDAsMCwwLDAuMSk7XHJcbiAgICB0cmFuc2l0aW9uOiBib3R0b20gMC41cztcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG5cclxuICAgIC55b3Vwcy1waWxsLWxvZ28ge1xyXG4gICAgICAgIGJhY2tncm91bmQ6IHVybCgnLi8uLi8uLi9hc3NldHMvaW1ncy95b3Vwc19zbWFsbF9sb2dvLnN2ZycpIG5vLXJlcGVhdDtcclxuICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICAgICAgICB3aWR0aDogNTBweDtcclxuICAgICAgICBoZWlnaHQ6IDUwcHg7XHJcbiAgICB9XHJcblxyXG4gICAgLnlvdXBzLXBpbGwtY29udGVudCB7XHJcbiAgICAgICAgbWFyZ2luLWxlZnQ6IDEycHg7XHJcbiAgICB9XHJcblxyXG4gICAgLnlvdXBzLXBpbGwtbGFiZWwge1xyXG4gICAgICAgIGNvbG9yOiAjNEIyOTBDO1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMWVtO1xyXG4gICAgfVxyXG5cclxuICAgIC55b3Vwcy1waWxsLWRpc3RhbmNlLXRpbWUge1xyXG4gICAgICAgIGNvbG9yOiBncmV5O1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMC43ZW07XHJcbiAgICB9XHJcbn1cclxuXHJcbi5tYXAtcGlsbC1zaG93IHtcclxuICAgIGJvdHRvbTogMjVweCAhaW1wb3J0YW50O1xyXG59Il19 */"] });
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "div", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, BicycleRouteComponent_img_4_Template, 1, 0, "img", 3);
+        } if (rf & 2) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.showLoading);
+        } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"]], styles: ["#map-canvas[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.map-loader-container[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  z-index: 10;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.map-pill[_ngcontent-%COMP%] {\n  background: #FFF;\n  position: fixed;\n  bottom: -200px;\n  left: 0;\n  right: 0;\n  margin: 12px;\n  border-radius: 50px;\n  padding: 12px;\n  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);\n  transition: bottom 0.5s;\n  display: flex;\n  align-items: center;\n}\n\n.map-pill[_ngcontent-%COMP%]   .youps-pill-logo[_ngcontent-%COMP%] {\n  background: url('youps_small_logo.svg') no-repeat;\n  background-size: cover;\n  background-position: center;\n  width: 50px;\n  height: 50px;\n}\n\n.map-pill[_ngcontent-%COMP%]   .youps-pill-content[_ngcontent-%COMP%] {\n  margin-left: 12px;\n}\n\n.map-pill[_ngcontent-%COMP%]   .youps-pill-label[_ngcontent-%COMP%] {\n  color: #4B290C;\n  font-size: 1em;\n}\n\n.map-pill[_ngcontent-%COMP%]   .youps-pill-distance-time[_ngcontent-%COMP%] {\n  color: grey;\n  font-size: 0.7em;\n}\n\n.map-pill-show[_ngcontent-%COMP%] {\n  bottom: 25px !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmljeWNsZS1yb3V0ZS9iaWN5Y2xlLXJvdXRlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0JBQUE7RUFDQSxNQUFBO0VBQ0EsU0FBQTtFQUNBLE9BQUE7RUFDQSxRQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7QUFDSjs7QUFFQTtFQUNJLGtCQUFBO0VBQ0EsTUFBQTtFQUNBLFNBQUE7RUFDQSxPQUFBO0VBQ0EsUUFBQTtFQUNBLFdBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0FBQ0o7O0FBR0E7RUFDSSxnQkFBQTtFQUNBLGVBQUE7RUFDQSxjQUFBO0VBQ0EsT0FBQTtFQUNBLFFBQUE7RUFDQSxZQUFBO0VBQ0EsbUJBQUE7RUFDQSxhQUFBO0VBQ0EsMkNBQUE7RUFDQSx1QkFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtBQUFKOztBQUVJO0VBQ0ksaURBQUE7RUFDQSxzQkFBQTtFQUNBLDJCQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7QUFBUjs7QUFHSTtFQUNJLGlCQUFBO0FBRFI7O0FBSUk7RUFDSSxjQUFBO0VBQ0EsY0FBQTtBQUZSOztBQUtJO0VBQ0ksV0FBQTtFQUNBLGdCQUFBO0FBSFI7O0FBT0E7RUFDSSx1QkFBQTtBQUpKIiwiZmlsZSI6InNyYy9hcHAvYmljeWNsZS1yb3V0ZS9iaWN5Y2xlLXJvdXRlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI21hcC1jYW52YXMge1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAwO1xyXG4gICAgYm90dG9tOiAwO1xyXG4gICAgbGVmdDogMDtcclxuICAgIHJpZ2h0OiAwO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbn1cclxuXHJcbi5tYXAtbG9hZGVyLWNvbnRhaW5lciB7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDA7XHJcbiAgICBib3R0b206IDA7XHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgcmlnaHQ6IDA7XHJcbiAgICB6LWluZGV4OiAxMDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxufVxyXG5cclxuXHJcbi5tYXAtcGlsbCB7XHJcbiAgICBiYWNrZ3JvdW5kOiAjRkZGO1xyXG4gICAgcG9zaXRpb246IGZpeGVkO1xyXG4gICAgYm90dG9tOiAtMjAwcHg7XHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgcmlnaHQ6IDA7XHJcbiAgICBtYXJnaW46IDEycHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiA1MHB4O1xyXG4gICAgcGFkZGluZzogMTJweDtcclxuICAgIGJveC1zaGFkb3c6IDBweCAwcHggMjBweCByZ2JhKDAsMCwwLDAuMSk7XHJcbiAgICB0cmFuc2l0aW9uOiBib3R0b20gMC41cztcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG5cclxuICAgIC55b3Vwcy1waWxsLWxvZ28ge1xyXG4gICAgICAgIGJhY2tncm91bmQ6IHVybCgnLi8uLi8uLi9hc3NldHMvaW1ncy95b3Vwc19zbWFsbF9sb2dvLnN2ZycpIG5vLXJlcGVhdDtcclxuICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICAgICAgICB3aWR0aDogNTBweDtcclxuICAgICAgICBoZWlnaHQ6IDUwcHg7XHJcbiAgICB9XHJcblxyXG4gICAgLnlvdXBzLXBpbGwtY29udGVudCB7XHJcbiAgICAgICAgbWFyZ2luLWxlZnQ6IDEycHg7XHJcbiAgICB9XHJcblxyXG4gICAgLnlvdXBzLXBpbGwtbGFiZWwge1xyXG4gICAgICAgIGNvbG9yOiAjNEIyOTBDO1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMWVtO1xyXG4gICAgfVxyXG5cclxuICAgIC55b3Vwcy1waWxsLWRpc3RhbmNlLXRpbWUge1xyXG4gICAgICAgIGNvbG9yOiBncmV5O1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMC43ZW07XHJcbiAgICB9XHJcbn1cclxuXHJcbi5tYXAtcGlsbC1zaG93IHtcclxuICAgIGJvdHRvbTogMjVweCAhaW1wb3J0YW50O1xyXG59Il19 */"] });
     return BicycleRouteComponent;
 })();
 
@@ -341,12 +358,21 @@ let BicycleRouteComponent = /** @class */ (() => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MapPageComponent", function() { return MapPageComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 //External Routes
 
 
+
+
+function MapPageComponent_img_4_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 4);
+} }
 let MapPageComponent = /** @class */ (() => {
     class MapPageComponent {
-        constructor() { }
+        constructor() {
+            this.showLoading = true;
+        }
         ngOnInit() {
             this.ds = new google.maps.DirectionsService();
             this.dr = new google.maps.DirectionsRenderer({
@@ -513,14 +539,22 @@ let MapPageComponent = /** @class */ (() => {
             if (typeof paths['' + fifth + '_to_' + sixth] !== 'undefined') {
                 paths['' + fifth + '_to_' + sixth].setOptions({ map: map });
             }
+            this.showLoading = false;
         }
     }
     MapPageComponent.ɵfac = function MapPageComponent_Factory(t) { return new (t || MapPageComponent)(); };
-    MapPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MapPageComponent, selectors: [["app-map-page"]], decls: 2, vars: 0, consts: [[1, "app-page"], ["id", "map-canvas"]], template: function MapPageComponent_Template(rf, ctx) { if (rf & 1) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 1);
+    MapPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MapPageComponent, selectors: [["app-map-page"]], decls: 5, vars: 1, consts: [["routerLink", "/bicycle", 2, "width", "100px", "height", "20px", "border-radius", "8px", "padding", "5px", "position", "absolute", "border", "1px solid green", "box-shadow", "0px 1px 8px rgb(49, 48, 48)", "top", "4%", "left", "11%", "z-index", "9999999999", "background-color", "aliceblue"], [1, "app-page"], ["id", "map-canvas"], ["src", "./assets/imgs/Loading_icon.gif", "style", "width: 100px;\nheight: 100px;\nposition: absolute;\ntop: 50%;\nright: 50%;", "alt", "", 4, "ngIf"], ["src", "./assets/imgs/Loading_icon.gif", "alt", "", 2, "width", "100px", "height", "100px", "position", "absolute", "top", "50%", "right", "50%"]], template: function MapPageComponent_Template(rf, ctx) { if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 0);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Bicycle");
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        } }, styles: ["#map-canvas {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  width: 100%;\n  height: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFwLXBhZ2UvbWFwLXBhZ2UuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtFQUNBLE1BQUE7RUFDQSxTQUFBO0VBQ0EsT0FBQTtFQUNBLFFBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtBQUNKIiwiZmlsZSI6InNyYy9hcHAvbWFwLXBhZ2UvbWFwLXBhZ2UuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbWFwLWNhbnZhcyB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHRvcDogMDtcbiAgICBib3R0b206IDA7XG4gICAgbGVmdDogMDtcbiAgICByaWdodDogMDtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IDEwMCU7XG59XG5cbiJdfQ== */"], encapsulation: 2 });
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "div", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, MapPageComponent_img_4_Template, 1, 0, "img", 3);
+        } if (rf & 2) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.showLoading);
+        } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"]], styles: ["#map-canvas {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  width: 100%;\n  height: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFwLXBhZ2UvbWFwLXBhZ2UuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtFQUNBLE1BQUE7RUFDQSxTQUFBO0VBQ0EsT0FBQTtFQUNBLFFBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtBQUNKIiwiZmlsZSI6InNyYy9hcHAvbWFwLXBhZ2UvbWFwLXBhZ2UuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbWFwLWNhbnZhcyB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHRvcDogMDtcbiAgICBib3R0b206IDA7XG4gICAgbGVmdDogMDtcbiAgICByaWdodDogMDtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IDEwMCU7XG59XG5cbiJdfQ== */"], encapsulation: 2 });
     return MapPageComponent;
 })();
 
@@ -547,6 +581,9 @@ let MapPageComponent = /** @class */ (() => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
+// Import the functions you need from the SDKs you need
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 // This file can be replaced during build by using the `fileReplacements` array.
