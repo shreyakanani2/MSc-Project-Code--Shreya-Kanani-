@@ -1,0 +1,136 @@
+{
+  "configVersion": 1,
+  "timestamp": 1671571092089,
+  "index": "shreyakanani2.github.io/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "shreyakanani2.github.io/favicon.ico",
+        "shreyakanani2.github.io/index.html",
+        "shreyakanani2.github.io/main-es2015.fc061775366c0255f979.js",
+        "shreyakanani2.github.io/main-es5.fc061775366c0255f979.js",
+        "shreyakanani2.github.io/manifest.webmanifest",
+        "shreyakanani2.github.io/polyfills-es2015.95bb65e853d2781ac3bd.js",
+        "shreyakanani2.github.io/polyfills-es5.341d48ffc88eaeae911d.js",
+        "shreyakanani2.github.io/runtime-es2015.409e6590615fb48d139f.js",
+        "shreyakanani2.github.io/runtime-es5.409e6590615fb48d139f.js",
+        "shreyakanani2.github.io/styles.ca25ee0aea01606d9f5a.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "shreyakanani2.github.io/assets/icons/android-144x144.png",
+        "shreyakanani2.github.io/assets/icons/android-192x192.png",
+        "shreyakanani2.github.io/assets/icons/android-36x36.png",
+        "shreyakanani2.github.io/assets/icons/android-48x48.png",
+        "shreyakanani2.github.io/assets/icons/android-72x72.png",
+        "shreyakanani2.github.io/assets/icons/android-96x196.png",
+        "shreyakanani2.github.io/assets/icons/apple-touch-icon-120x120.png",
+        "shreyakanani2.github.io/assets/icons/apple-touch-icon-152x152.png",
+        "shreyakanani2.github.io/assets/icons/apple-touch-icon-167x167.png",
+        "shreyakanani2.github.io/assets/icons/apple-touch-icon-180x180.png",
+        "shreyakanani2.github.io/assets/icons/apple-touch-icon-60x60.png",
+        "shreyakanani2.github.io/assets/icons/apple-touch-icon-76x76.png",
+        "shreyakanani2.github.io/assets/icons/coast-228x228.png",
+        "shreyakanani2.github.io/assets/icons/favicon-128x128.png",
+        "shreyakanani2.github.io/assets/icons/favicon-16x16.png",
+        "shreyakanani2.github.io/assets/icons/favicon-256x256.png",
+        "shreyakanani2.github.io/assets/icons/favicon-32x32.png",
+        "shreyakanani2.github.io/assets/icons/favicon-48x48.png",
+        "shreyakanani2.github.io/assets/icons/favicon-64x64.png",
+        "shreyakanani2.github.io/assets/icons/favicon-96x96.png",
+        "shreyakanani2.github.io/assets/icons/favicon.ico",
+        "shreyakanani2.github.io/assets/icons/pwa-192x192.png",
+        "shreyakanani2.github.io/assets/icons/pwa-512x512.png",
+        "shreyakanani2.github.io/assets/imgs/Loading_icon.gif",
+        "shreyakanani2.github.io/assets/imgs/destination_custom_pin.svg",
+        "shreyakanani2.github.io/assets/imgs/oval.svg",
+        "shreyakanani2.github.io/assets/imgs/three-dots.svg",
+        "shreyakanani2.github.io/assets/imgs/truck_loader.svg",
+        "shreyakanani2.github.io/assets/imgs/truck_pin.svg",
+        "shreyakanani2.github.io/assets/imgs/youps_loader.svg",
+        "shreyakanani2.github.io/assets/imgs/youps_small_logo.svg",
+        "shreyakanani2.github.io/assets/imgs/youpslogo.svg",
+        "shreyakanani2.github.io/youps_small_logo.cd95948645729451b3ce.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "shreyakanani2.github.io/assets/icons/android-144x144.png": "7b102ad8b8c35cab2c022251d151e5a323122051",
+    "shreyakanani2.github.io/assets/icons/android-192x192.png": "581754b380eec28137fce3f502a51259d5e2db30",
+    "shreyakanani2.github.io/assets/icons/android-36x36.png": "24c01d6305eeea22981ef003461d7da1f2fe9803",
+    "shreyakanani2.github.io/assets/icons/android-48x48.png": "1fad96bdf0a443a7942be5c1b93d3b21eb76b9aa",
+    "shreyakanani2.github.io/assets/icons/android-72x72.png": "b327f1e558873682917fff69774d3a6c5c36624e",
+    "shreyakanani2.github.io/assets/icons/android-96x196.png": "2f12e07918244925dd05bebff3e31509001b9212",
+    "shreyakanani2.github.io/assets/icons/apple-touch-icon-120x120.png": "f59a947589671840b1ed6775fc89153036bb5e32",
+    "shreyakanani2.github.io/assets/icons/apple-touch-icon-152x152.png": "5caa1f5b28ab9fca42aaaf619501ad4e1d2f923c",
+    "shreyakanani2.github.io/assets/icons/apple-touch-icon-167x167.png": "2619dd8e970a4181f45293a4fe4d892456a294ab",
+    "shreyakanani2.github.io/assets/icons/apple-touch-icon-180x180.png": "e31f8eb250b5c888637fc8d31e5d4de6384037a3",
+    "shreyakanani2.github.io/assets/icons/apple-touch-icon-60x60.png": "e1fed25c75a912b60a1d92d078c1c2fac233e064",
+    "shreyakanani2.github.io/assets/icons/apple-touch-icon-76x76.png": "8ec1f49d10443f224832653242692a8ee6585af6",
+    "shreyakanani2.github.io/assets/icons/coast-228x228.png": "e4622eb4a934fd9e7ae14026999306876a2c08e8",
+    "shreyakanani2.github.io/assets/icons/favicon-128x128.png": "0f047414163c1171b5d7531bd2f0c4d3da851c72",
+    "shreyakanani2.github.io/assets/icons/favicon-16x16.png": "edf255b6a648d0f9cf4f2c7c1da47d5673503492",
+    "shreyakanani2.github.io/assets/icons/favicon-256x256.png": "fd0d028d9f919d7c19dad203856f2038d87b4739",
+    "shreyakanani2.github.io/assets/icons/favicon-32x32.png": "dcc52a9123c53382829614688136958200956c0e",
+    "shreyakanani2.github.io/assets/icons/favicon-48x48.png": "1fad96bdf0a443a7942be5c1b93d3b21eb76b9aa",
+    "shreyakanani2.github.io/assets/icons/favicon-64x64.png": "c77b1e76c01250b5cd3c2b648b2467eddc9bfcb4",
+    "shreyakanani2.github.io/assets/icons/favicon-96x96.png": "2f12e07918244925dd05bebff3e31509001b9212",
+    "shreyakanani2.github.io/assets/icons/favicon.ico": "1f90a2935ec0e13a9f4e2e378d9eae7fedf2d6ed",
+    "shreyakanani2.github.io/assets/icons/pwa-192x192.png": "581754b380eec28137fce3f502a51259d5e2db30",
+    "shreyakanani2.github.io/assets/icons/pwa-512x512.png": "845fa61a05589a1874292902a3528380a49da1ce",
+    "shreyakanani2.github.io/assets/imgs/Loading_icon.gif": "458412ef0894476c376deb206e089b27160f46ba",
+    "shreyakanani2.github.io/assets/imgs/destination_custom_pin.svg": "de8803900562ccd78cfb3324d8f588a1d420ac34",
+    "shreyakanani2.github.io/assets/imgs/oval.svg": "bf71c65eaf348b40964ce9aaf0e384d4653c1252",
+    "shreyakanani2.github.io/assets/imgs/three-dots.svg": "b638e975a151ce064cd63d5e155228a280ca6f84",
+    "shreyakanani2.github.io/assets/imgs/truck_loader.svg": "b40633e869be718779c1be1c5efeadea26cfc534",
+    "shreyakanani2.github.io/assets/imgs/truck_pin.svg": "4666728664443dfa5fde2cf0258d84b30591d117",
+    "shreyakanani2.github.io/assets/imgs/youps_loader.svg": "348b0f87b74e3e3566345b1431ccd118cb3bddaa",
+    "shreyakanani2.github.io/assets/imgs/youps_small_logo.svg": "4f1ee5ccdc50c6847e00723d1a86d35bb268ada0",
+    "shreyakanani2.github.io/assets/imgs/youpslogo.svg": "d663942273682e147952b7eae3e71a748246bfee",
+    "shreyakanani2.github.io/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "shreyakanani2.github.io/index.html": "0d3928cfd135bfafeff01cace70242030a59911a",
+    "shreyakanani2.github.io/main-es2015.fc061775366c0255f979.js": "70244608d5037507713d24de07181e3fab505cb6",
+    "shreyakanani2.github.io/main-es5.fc061775366c0255f979.js": "7aa71f8d3a5b0a2d1992e7fa2f26fdbee3448b0f",
+    "shreyakanani2.github.io/manifest.webmanifest": "7032f9c0b1dac96b5ee94c5ac7ea88eb1e5b4f76",
+    "shreyakanani2.github.io/polyfills-es2015.95bb65e853d2781ac3bd.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "shreyakanani2.github.io/polyfills-es5.341d48ffc88eaeae911d.js": "ff14d90e08622190714660721edab5f43578829a",
+    "shreyakanani2.github.io/runtime-es2015.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "shreyakanani2.github.io/runtime-es5.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "shreyakanani2.github.io/styles.ca25ee0aea01606d9f5a.css": "bc4f77c5225f8a96eddea7db4d674f9279d9f541",
+    "shreyakanani2.github.io/youps_small_logo.cd95948645729451b3ce.svg": "4f1ee5ccdc50c6847e00723d1a86d35bb268ada0"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
