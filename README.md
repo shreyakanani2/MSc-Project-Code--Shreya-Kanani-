@@ -1,7 +1,6 @@
-# YouPS - Google Maps on an Angular PWA / Custom Infowindow with Route Details
-### by Roman Just Codes (RJC)
 
-This project is part of a series of projects in which I'll be developing an Angular PWA app for a fictional package delivering company called "YouPS". In this installment, I'll be showing a custom animated info window / pill that shows route details upon tapping on a marker.
+
+This project is to display multiple routes from origin to destination for pedestrians and cyclists
 
 **NOTE**: YOU MUST HAVE THE GOOGLE DIRECTIONS API ENABLED AS WELL AS A GOOGLE MAPS API KEY FOR THIS TO WORK! More info [here](https://cloud.google.com/maps-platform/routes/?utm_source=google&utm_medium=cpc&utm_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps_contactsal_saf&utm_content=text-ad-none-none-DEV_c-CRE_289050149247-ADGP_Hybrid+%7C+AW+SEM+%7C+BKWS+~+Google+Maps+Routes+API-KWID_43700038883964686-aud-581578347266:kwd-569137409002-userloc_9001895&utm_term=KW_google%20routes%20api-ST_google+routes+api&gclid=Cj0KCQjwk8b7BRCaARIsAARRTL5UrZgouD8GIumbNRbHSMrxUVO5nvEiZMh62UmY0jn0kvkVuuffwdcaApVaEALw_wcB).
 
